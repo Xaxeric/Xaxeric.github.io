@@ -20,6 +20,7 @@
         <meta name="robots" content="all">                                                              <!-- Crawl all content on the website -->
         <meta name="keywords" content="Donate">                                                         <!-- Set keywords for search engines (comma-separated) -->
         <meta name="rating" content="General" />                                                        <!-- Gives a general age rating based on the document's content -->
+        <meta http-equiv="Content-Security-Policy" content="default-src https:">                        <!-- Disable unsafe inline/eval, only allow loading of resources (images, fonts, scripts, etc.) over https:  -->
         <meta name="og:title" content="Donate me!">                                                         <!-- Define open-graph title -->
         <meta name="og:locale" content="en_US">                                                             <!-- Define the content language -->
         <meta name="og:site_name" content="Craccken">                                                       <!-- Define name of overall website content -->
@@ -27,7 +28,7 @@
         <meta name="og:url" content="https://xaxeric.github.io/donate">                                     <!-- Define the url of the content -->
         <meta name="og:type" content="profile">                                                             <!-- Define type of object sharing -->
         <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website :P" />    <!-- Prevent people from saving things from website -->
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> <!-- Controls the viewport (the user's visible area of web page), "width" sets the width to follow the screen-width, "initial-scale" sets the initial zoom level when page is fist loaded-->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" /> <!-- Controls the viewport (the user's visible area of web page), "width" sets the width to follow the screen-width, "initial-scale" sets the initial zoom level when page is fist loaded-->
         <!-- Set favicons of the page -->
         <!-- 
         ╭──────────────────────────────────────────────────────────────────────────────╮
@@ -39,7 +40,7 @@
         <header> <!-- This elements represents introductory content for its nearest ancestor sectioning content or sectioning root element -->
         </header>
         <main> <!-- This elements contains the MAIN CONTENT of the page -->
-            <p>monero:46kaqXeEB8mWgEh6QWxZCeS8QMDLiErdS1EerdgHM9wY681s5hq9jFCP4EcLLGTopuHzM41p8kx3gHyoqdtTo2itQDh3tvD?tx_amount=0.127183313549&recipient_name=Xaxeric&tx_description=Donation</p>
+            <p tabindex="0">monero:46kaqXeEB8mWgEh6QWxZCeS8QMDLiErdS1EerdgHM9wY681s5hq9jFCP4EcLLGTopuHzM41p8kx3gHyoqdtTo2itQDh3tvD?tx_amount=0.127183313549&recipient_name=Xaxeric&tx_description=Donation</p>
         </main>
         <footer> <!-- This elements represents a end for its nearest ancestor sectioning content or sectioning root element -->
             <a href="https://github.com/Xaxeric/Xaxeric.github.io" target="_blank" rel="noopener noreferrer">Source</a>
